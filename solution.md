@@ -61,6 +61,10 @@ npm start
 
 <!-- Port Configuration -->
 ### Port Configuration
+This project is served via port 3000, if you would like to change to another port you can do so via the Dockerfile
+`ENV PORT 3000`
+and your docker-compose file
+`ports: - 3000:3000` 
 
 <!-- Future Updates-->
 ### Future Updates

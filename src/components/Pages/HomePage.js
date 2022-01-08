@@ -1,5 +1,4 @@
 import Button from '../Atoms/Button';
-import ButtonData from '../Atoms/Button/ButtonData';
 import FetchNumberOfVisits from '../Atoms/Fetch/FetchNumberOfVisits';
 
 export default function HomePage() {
@@ -8,7 +7,7 @@ export default function HomePage() {
       <header className="App-header">
         <body>
           <h1><FetchNumberOfVisits/></h1>
-          <Button key = {ButtonData.id} title= {ButtonData.title}/>
+          <Button />
         </body>
       </header>
     </div>
