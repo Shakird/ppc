@@ -69,8 +69,8 @@ and your docker-compose file
    Due to the configuration of the current key, there isn't a way to reset the value of the hit counter via the api.
    However if we were to reset it we'd just have to send a request stating 'https://api.countapi.xyz/set/purplecow.tech/1cc732e-b55a-4404-ad3f-0f99c02fe44e?value=0'.
 
-2. Making the right permissions are present before resetting value.
-   To further add onto this project the ability to authenticate the user before allowing them to rest the counter value would be a good next step. However while a nice idea this would most likely be something that is out of scope for the developers attempting this within the given time frame.
+2. Making sure the right permissions are present before resetting value.
+   To further add onto this project; the ability to authenticate the user before allowing them to rest the counter value would be a good next step. However while a nice idea this would most likely be something that is out of scope for the developers attempting this within the given time frame.
 
 3. A fun thing to add would be page events that happened when the hit counter got to a certain amount. For example, confetti for the 100th, 1000th,10000th, etc visits.
 
