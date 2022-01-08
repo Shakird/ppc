@@ -1,7 +1,8 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://e7.pngegg.com/pngimages/699/669/png-clipart-holstein-friesian-cattle-cartoon-drawing-purple-cow-s-head-snout.png" alt="Logo" width="450" height="300">
+  <img src="https://www.clipartmax.com/png/small/61-613936_purple-cow-draw-cartoon-cow.png">  
+  alt="Logo" width="450" height="300">
   <h1 align="center">Welcome to Project Purple Cow</h1>
 
   <p align="center">
