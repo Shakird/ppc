@@ -73,3 +73,5 @@ and your docker-compose file
    To further add onto this project the ability to authenticate the user before allowing them to rest the counter value would be a good next step. However while a nice idea this would most likely be something that is out of scope for the developers attempting this within the given time frame.
 
 3. A fun thing to add would be page events that happened when the hit counter got to a certain amount. For example, confetti for the 100th, 1000th,10000th, etc visits.
+
+4. Lastly I would use tailwind to spruce up the UI.
