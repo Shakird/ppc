@@ -1,18 +1,14 @@
 import './App.css';
-import Button from './components/Button'
-import FetchNumberOfVisits from './components/FetchNumberOfVisits';
+import HomePage from './components/Pages/HomePage';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
         <body>
-          <h1><FetchNumberOfVisits/></h1>
-          <Button/>
+          < HomePage />
         </body>
       </header>
     </div>
   );
 }
-
-export default App;

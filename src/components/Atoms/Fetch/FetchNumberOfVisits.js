@@ -7,7 +7,6 @@ export default class FetchNumberOfVisits extends React.Component {
         visits: null
     }
 
-    "https://api.countapi.xyz/hit/purplecow.tech/1cc732e-b55a-4404-ad3f-0f99c02fe44e"
     async componentDidMount(){
         const url = "https://api.countapi.xyz/hit/purplecow.tech/1cc732e-b55a-4404-ad3f-0f99c02fe44e"
         const response = await fetch(url);
