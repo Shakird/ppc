@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from './components/atoms/Button'
+
+<script async src="https://api.countapi.xyz/hit/purplecow.tech/1cc732e-b55a-4404-ad3f-0f99c02fe44e?callback=websiteVisits"></script>
+
+
+function websiteVisits(response){
+  document.querySelector('#visits').textContent = response.value;
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <body>
+          <h1>We have been visited <span id="visits"></span> times. </h1>
+          <Button/>
+        </body>
       </header>
     </div>
   );
