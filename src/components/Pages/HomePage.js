@@ -16,7 +16,7 @@ export default function HomePage() {
         <body>
           <h1><FetchNumberOfVisits/></h1>
           <RefreshButton buttons = {buttons.filter((buttons) => buttons.id === 0)}/>
-          <ResetButton buttons = {buttons.filter((buttons) => buttons.id === 1)}/>
+          <ResetButton buttons = {buttons.filter((buttons) => buttons.id === 1)} />
         </body>
       </header>
     </div>

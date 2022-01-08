@@ -75,3 +75,8 @@ and your docker-compose file
 3. A fun thing to add would be page events that happened when the hit counter got to a certain amount. For example, confetti for the 100th, 1000th,10000th, etc visits.
 
 4. Lastly I would use tailwind to spruce up the UI.
+
+<!-- Code to add-->
+### Code to add
+
+1. Right now there are two button components. I would like to break this down into a single button component named "Button". The only road block I've run into is with passing onClick events to that reusable button component and where the functions being called via those events would live. Im most likely over thinking it but with that break through it would be easy to have a single reusable button component.
