@@ -1,8 +1,4 @@
 <!-- GETTING STARTED -->
-## Getting Started
-
-<h3 align="center">Before letting you loose there are a few things we have to do to set you up for success.</h3>
-
 ### Prerequisites
 
 A few essentials to install that will ensure your development experience with this project goes smoothly.
@@ -76,4 +72,4 @@ and your docker-compose file
 2. Making the right permissions are present before resetting value.
    To further add onto this project the ability to authenticate the user before allowing them to rest the counter value would be a good next step. However while a nice idea this would most likely be something that is out of scope for the developers attempting this within the given time frame.
 
-3. A fun thing to add would be page events that happened when the hit counter got to a certain amount. For example, confetti for the 100th, 1000th,10000th, etc visit.
+3. A fun thing to add would be page events that happened when the hit counter got to a certain amount. For example, confetti for the 100th, 1000th,10000th, etc visits.
