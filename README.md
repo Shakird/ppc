@@ -44,21 +44,21 @@ A few essentials to install that will ensure your development experience with th
 ## 🐳 Docker-compose Quick start ⚡️
 
 ### `pull`
-The `pull` command pulls an image associated with a service defined in a docker-compose.yml or docker-stack.yml file, but does not start containers based on those images.
+**First** you want to run the pull command. The `pull` command pulls the images associated the services defined in the docker-compose.yml file, but does not start containers based on those images.
 
 ```bash
 docker-compose -f docker-compose.yml pull
 ```
 
 ### `up`
-The `up` command aggregates the output of each container. When the command exits, all containers are stopped. Running `docker-compose up -d` starts the containers in the background and leaves them running.
+**Second** lets get the application running by using the up command. The `up` command aggregates the output of each container. When the command exits, all containers are stopped. Running `docker-compose up -d` starts the containers in the background and leaves them running. This 
 
 ```bash
 docker-compose -f docker-compose.yml up -d
 ```
 
 ### `down`
-The `down` command stops containers and removes containers, networks, volumes, and images created by `up`.
+**Lastly** once you're done, use the down command. The `down` command stops containers and removes containers, networks, volumes, and images created by `up`.
 
 ```bash
 docker-compose -f docker-compose.yml down

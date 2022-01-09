@@ -8,7 +8,8 @@ services:
       context: .
     volumes:
       - .:/app
+      - .:/app/node_modules'
     ports:
       - 3000:3000
-    image: app:react
+    stdin_open: true
     command: npm start
