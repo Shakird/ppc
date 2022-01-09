@@ -8,7 +8,7 @@ export default function ResetButton({buttons}) {
         <>
           {buttons.map((buttonData) => (
             <div>
-             <button key={buttonData.id} onClick={() => {clickEvent()}}> {buttonData.title} </button>
+             <button data-testid='resetButton' key={buttonData.id} onClick={() => {clickEvent()}}> {buttonData.title} </button>
             </div>
           ))}
           </>

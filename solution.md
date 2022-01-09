@@ -79,4 +79,7 @@ and your docker-compose file
 <!-- Code to add-->
 ### Code to add
 
-1. Right now there are two button components. I would like to break this down into a single button component named "Button". The only road block I've run into is with passing onClick events to that reusable button component and where the functions being called via those events would live. Im most likely over thinking it but with that break through it would be easy to have a single reusable button component.
+1. Right now there are two button components. I would like to break this down into a single button component named "Button". The only road block I've run into is with passing onClick events to that reusable button component and where the functions being called via those events would live. I'm most likely over thinking it but with that break through it would be easy to have a single reusable button component.
+
+2. Working test, creating the test for these components seemed simple enough however it turns out that I am not as proficient as I thought in regards to creating test for all parts of a component. I would love to discuss how to make these test work better and gain insight on TDD.
+
