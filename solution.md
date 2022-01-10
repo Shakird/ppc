@@ -29,22 +29,34 @@ A few essentials to install that will ensure your development experience with th
 **First** you want to run the pull command. The `pull` command pulls the images associated the services defined in the docker-compose.yml file, but does not start containers based on those images.
 
 ```bash
-docker-compose -f docker-compose.yml pull
+docker-compose pull
 ```
 
 ### `up`
 **Second** lets get the application running by using the up command. The `up` command aggregates the output of each container. When the command exits, all containers are stopped. Running `docker-compose up -d` starts the containers in the background and leaves them running. This 
 
 ```bash
-docker-compose -f docker-compose.yml up -d
+docker-compose up -d
 ```
 
 ### `down`
 **Lastly** once you're done, use the down command. The `down` command stops containers and removes containers, networks, volumes, and images created by `up`.
 
 ```bash
-docker-compose -f docker-compose.yml down
+docker-compose down
 ```
+<!-- Errors-->
+## ⚙️ Errors / Troubleshooting
+
+### `sh:1: react-scripts: not found`
+While running `docker-compose up` you may have the unfortunate luck of running into this message. Thankfully this can be easily resolved.
+
+1. First delete both the "node_modules" and "package-lock.json" files.
+
+2. Next run npm install.
+
+3. Lastly run the `docker-compose up` command again, this time you should see `Container purpleCow Started`.
+
 
 <!-- Commands & Options-->
 ## ⚙️ Commands & Options

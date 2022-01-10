@@ -64,6 +64,18 @@ docker-compose -f docker-compose.yml up -d
 docker-compose -f docker-compose.yml down
 ```
 
+<!-- Errors-->
+## ⚙️ Errors/ troubleshooting
+
+### `sh:1: react-scripts: not found`
+While running `docker-compose up` you may have the unfortunate luck of running into this message. Thankfully this can be easily resolved.
+
+1. First delete both the "node_modules" and "package-lock.json" files.
+
+2. Next run npm install.
+
+3. Lastly run the `docker-compose up` command again, this time you should see `Container purpleCow Started`.
+
 <!-- Commands & Options-->
 ## ⚙️ Commands & Options
 
